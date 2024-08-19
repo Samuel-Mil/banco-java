@@ -1,6 +1,7 @@
+package bankjava;
 import java.util.HashMap;
 
-class User {
+public class User {
     private String name;
     private String email;
     private String cpf;

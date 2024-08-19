@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import bankjava.User;
 
 class Menu{
     public static User loggedUser = null;
@@ -38,7 +39,7 @@ class Menu{
                         System.out.println("Opção inválida");
                     break;
                 }
-            }
+            }else{
 
             // User is logged
             int opt = 0;
@@ -64,6 +65,7 @@ class Menu{
                 default:
                     System.out.println("Opção inválida");
                 break;
+            }
             }
         }
     }
